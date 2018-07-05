@@ -1,0 +1,4 @@
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.csprojResolveAssemblyReference.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfo.cs

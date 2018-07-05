@@ -1,0 +1,11 @@
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.deps.json
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.AssemblyInfo.cs
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.runtimeconfig.json
+C:\Users\Igor\source\repos\Study.Training\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.runtimeconfig.dev.json

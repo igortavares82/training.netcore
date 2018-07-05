@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Study.Training.Infrastructure
+namespace Study.Training.Application
 {
     public class Class1
     {
