@@ -12543,11 +12543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Api\\Study.Training.Api.csproj",
+      "projectUniqueName": "C:\\projects\\training\\Study.Training.Api\\Study.Training.Api.csproj",
       "projectName": "Study.Training.Api",
-      "projectPath": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Api\\Study.Training.Api.csproj",
+      "projectPath": "C:\\projects\\training\\Study.Training.Api\\Study.Training.Api.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Api\\obj\\",
+      "outputPath": "C:\\projects\\training\\Study.Training.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

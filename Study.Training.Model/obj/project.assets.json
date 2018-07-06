@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Model\\Study.Training.Model.csproj",
+      "projectUniqueName": "C:\\projects\\training\\Study.Training.Model\\Study.Training.Model.csproj",
       "projectName": "Study.Training.Model",
-      "projectPath": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Model\\Study.Training.Model.csproj",
+      "projectPath": "C:\\projects\\training\\Study.Training.Model\\Study.Training.Model.csproj",
       "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Igor\\source\\repos\\Study.Training\\Study.Training.Model\\obj\\",
+      "outputPath": "C:\\projects\\training\\Study.Training.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

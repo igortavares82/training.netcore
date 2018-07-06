@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Interface\" />
     <Folder Include="Data\Concrete\" />
     <Folder Include="Mappings\" />
     <Folder Include="Services\" />
@@ -13,6 +12,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Study.Training.Model\Study.Training.Model.csproj" />
   </ItemGroup>
 
 </Project>
