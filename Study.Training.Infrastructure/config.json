@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=LUCIVAR-PC\\SQLEXPRESS;Initial Catalog=Training;Integrated Security=True"
+  }
+}
