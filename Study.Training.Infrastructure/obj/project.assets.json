@@ -72,6 +72,19 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.1.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.SqlServer/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -83,6 +96,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.6",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Tools/2.1.1": {
@@ -1093,6 +1120,20 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
+      "sha512": "XVlEYWa4C0ZeO4MbiOlrRdz3ujaHJVYe1tK0IUh8dAT5OW1qAgUKcz2VEwj41tIBxBkeyMzj5UEECdpi3KQFkg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational.design/1.1.6",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
+        "microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.design.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.SqlServer/2.1.1": {
       "sha512": "+owJ/RcmFOrRseb+9PEjqhoOcE7l+DeTe0Jwte0tqhYoiPxZpC6jtGhUhpftPSBkC662siPR7kNm2TfxpPVilQ==",
       "type": "package",
@@ -1103,6 +1144,20 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.2.1.1.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
+      "sha512": "UgXcudeAi4mFO3Ynk12lfEDbsNWmDS8IgX+kJKrgxFaAl/E3yzJmF+8kR0MJ1n7NHAeAzL+Hb6w1+K6x9Yss8A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.6",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
+        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
+        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
+        "microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/2.1.1": {
@@ -1593,7 +1648,7 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.0.1": {
-      "sha512": "I4Unhu79/Gxx2s7OCS+En8KxsaEtVzCElDCGyDZX+A0+ABPD7wpa9vP0StizlZ1HC5C3BYiKiJ+J9xYzjUr2ig==",
+      "sha512": "rkn+fKobF/cbWfnnfBOQHKVKIOpxMZBvlSHkqDWgBpwGDcLRduvs3D9OLGeV6GWGvVwNlVi2CBbTjuPmtHvyNw==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.0.1",
       "files": [
@@ -1847,7 +1902,7 @@
       ]
     },
     "System.Collections/4.0.11": {
-      "sha512": "RqlM5no3veWJJayLiEEq4kOwlnvdu8QfJiZbi9vSamJcpAFJVImhjDqRo21izJrvafH3Ao1KQpxTWhGiaunP8w==",
+      "sha512": "YUJGz6eFKqS0V//mLt25vFGrrCvOnsXjlvFQs+KimpwNxug9x0Pzy4PlFMU3Q2IzqAa9G2L4LsK3+9vCBK7oTg==",
       "type": "package",
       "path": "system.collections/4.0.11",
       "files": [
@@ -2096,7 +2151,7 @@
       ]
     },
     "System.Diagnostics.Debug/4.0.11": {
-      "sha512": "tNhShno1SI2/VFR0krkiDhhc+AlS1bltQaStzegV3mLwJ7MjYv9lsPu4ZlYCRHNoQbqtgFHQ0oMmsS9ucVObuA==",
+      "sha512": "w5U95fVKHY4G8ASs/K5iK3J5LY+/dLFd4vKejsnI/ZhBsWS9hQakfx3Zr7lRWKg4tAw9r4iktyvsTagWkqYCiw==",
       "type": "package",
       "path": "system.diagnostics.debug/4.0.11",
       "files": [
@@ -2186,7 +2241,7 @@
       ]
     },
     "System.Globalization/4.0.11": {
-      "sha512": "GzKJdueV8jd32MUM5Qhgl9vyOFkkLRM7rdvkAlI8tJ+mfO3dzWaZwYSQpoMaRsLGrYEmH4Otvi2ZFxtHR/LtHA==",
+      "sha512": "B95h0YLEL2oSnwF/XjqSWKnwKOy/01VWkNlsCeMTFJLLabflpGV26nK164eRs5GiaRSBGpOxQ3pKoSnnyZN5pg==",
       "type": "package",
       "path": "system.globalization/4.0.11",
       "files": [
@@ -2269,7 +2324,7 @@
       ]
     },
     "System.IO/4.1.0": {
-      "sha512": "jLwRKuHQY89GlNmBLbZhjEYWIqc6L4+Jwe+H5cFfpsdTQfspHlUyF/jguU+tObERoFyVXI4RE+xd9eLRLDFtxw==",
+      "sha512": "3KlTJceQc3gnGIaHZ7UBZO26SHL1SHE4ddrmiwumFnId+CEHP+O8r386tZKaE6zlk5/mF8vifMBzHj9SaXN+mQ==",
       "type": "package",
       "path": "system.io/4.1.0",
       "files": [
@@ -2348,7 +2403,7 @@
       ]
     },
     "System.Linq/4.1.0": {
-      "sha512": "QKEUUEhUElMGrRghdxnNiwySOEmgI1e4kmh5e02M+hYbnBLlS6OXPgsNbeIWC1tSxQDch2+1Rk6HqJMsiCTmJQ==",
+      "sha512": "bQ0iYFOQI0nuTnt+NQADns6ucV4DUvMdwN6CbkB1yj8i7arTGiTN5eok1kQwdnnNWSDZfIUySQY+J3d5KjWn0g==",
       "type": "package",
       "path": "system.linq/4.1.0",
       "files": [
@@ -2418,7 +2473,7 @@
       ]
     },
     "System.Linq.Expressions/4.1.0": {
-      "sha512": "CDssSRcTxazoeFnoR/Pwbo9da8NFhK5Bw9Q6AlR1zdJbs0QLGc/zDQK/7hFW8L2g2JH8x96b1EPD8bMnER2XLg==",
+      "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
       "type": "package",
       "path": "system.linq.expressions/4.1.0",
       "files": [
@@ -2500,7 +2555,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "PCFsWd9muD3qCWkiKWu0fpkRBhGxpUMXzd2Qm/M9R21T0BpnhFOK7s599zpzC3qGnGkW4X3MCN4lKy7T+gAVAA==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -2581,7 +2636,7 @@
       ]
     },
     "System.ObjectModel/4.0.12": {
-      "sha512": "Z9e9t4CDBas8SPEzpkUyeB99TZ/FgLGegQjXOHKVSur4WL5KKd8+97af9upydHnRCpf7snkWt6HqZFLhFjj6bA==",
+      "sha512": "tAgJM1xt3ytyMoW4qn4wIqgJYm7L7TShRZG4+Q4Qsi2PCcj96pXN7nRywS9KkB3p/xDUjc2HSwP9SROyPYDYKQ==",
       "type": "package",
       "path": "system.objectmodel/4.0.12",
       "files": [
@@ -2649,7 +2704,7 @@
       ]
     },
     "System.Reflection/4.1.0": {
-      "sha512": "XrPk3rs6L/kAVE9k74hpAZA0+R10feTFhuBcNseWGgpZVYzsHNRfF8wyWFAs75qMuhUsbhZD3n2Vwt7aHYKHJw==",
+      "sha512": "JCKANJ0TI7kzoQzuwB/OoJANy1Lg338B6+JVacPl4TpUwi3cReg3nMLplMq2uqYfHFQpKIlHAUVAJlImZz/4ng==",
       "type": "package",
       "path": "system.reflection/4.1.0",
       "files": [
@@ -2728,7 +2783,7 @@
       ]
     },
     "System.Reflection.Emit/4.0.1": {
-      "sha512": "XRHi4/rnrMyXK8QzrPSUZae3faf1d1sdva1updr3kjZFqMK0Mup5Z38uiA5GRHjg8m4xriRitxpM0WpJdFIXaA==",
+      "sha512": "P2wqAj72fFjpP6wb9nSfDqNBMab+2ovzSDzUZK7MVIm54tBJEPr9jWfSjjoTpPwj1LeKcmX3vr0ttyjSSFM47g==",
       "type": "package",
       "path": "system.reflection.emit/4.0.1",
       "files": [
@@ -2758,7 +2813,7 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.0.1": {
-      "sha512": "49GJ+8ljkbIC+DQDv2XzoaSmWSZRVcezOpoOp4/M9JRny5cLRLllT5erFWQrkRMaJhb8reVGjlcWPGFb3dzEkQ==",
+      "sha512": "Ov6dU8Bu15Bc7zuqttgHF12J5lwSWyTf1S+FJouUXVMSqImLZzYaQ+vRr1rQ0OZ0HqsrwWl4dsKHELckQkVpgA==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.0.1",
       "files": [
@@ -2789,7 +2844,7 @@
       ]
     },
     "System.Reflection.Emit.Lightweight/4.0.1": {
-      "sha512": "fD5ZeLuZ/Vpc7Z1mC0EVhXkfPQYbGJCJEBI19VweBgiGpTjjzVm8DyG/lyZ8U1+ocbH7TQ/AjH6u3FIFQiltXg==",
+      "sha512": "sSzHHXueZ5Uh0OLpUQprhr+ZYJrLPA2Cmr4gn0wj9+FftNKXx8RIMKvO9qnjk2ebPYUjZ+F2ulGdPOsvj+MEjA==",
       "type": "package",
       "path": "system.reflection.emit.lightweight/4.0.1",
       "files": [
@@ -2820,7 +2875,7 @@
       ]
     },
     "System.Reflection.Extensions/4.0.1": {
-      "sha512": "y4f9VI6H17xcGhXhZMONLEywGMRLxRUaC2zWFAVt3X2YapHXTF4OuFhsBNmNSeRoahOLRM+RYiqzUW4hHhDpJw==",
+      "sha512": "GYrtRsZcMuHF3sbmRHfMYpvxZoIN2bQGrYGerUiWLEkqdEUQZhH3TRSaC/oI4wO0II1RKBPlpIa1TOMxIcOOzQ==",
       "type": "package",
       "path": "system.reflection.extensions/4.0.1",
       "files": [
@@ -2875,7 +2930,7 @@
       ]
     },
     "System.Reflection.Primitives/4.0.1": {
-      "sha512": "oQpLcVJhOdBkqclsLl+DQSUOWE7NywNzS3mjouWIMR4xpKHBHWk0zGwohp0U5V7520s6oABnMI2GVbo+iJLljw==",
+      "sha512": "4inTox4wTBaDhB7V3mPvp9XlCbeGYWVEM9/fXALd52vNEAVisc1BoVWQPuUuD0Ga//dNbA/WeMy9u9mzLxGTHQ==",
       "type": "package",
       "path": "system.reflection.primitives/4.0.1",
       "files": [
@@ -2930,7 +2985,7 @@
       ]
     },
     "System.Reflection.TypeExtensions/4.1.0": {
-      "sha512": "0LEEQ0qu/G2X7UNiCaS6ZR7/ivU8f2LhVVnoJmIH/QAWS5o2zUWWMKYswDMzkSJMnsMfj186JFygGSGBMgKlPA==",
+      "sha512": "tsQ/ptQ3H5FYfON8lL4MxRk/8kFyE0A+tGPXmVP967cT/gzLHYxIejIYSxp4JmIeFHVP78g/F2FE1mUUTbDtrg==",
       "type": "package",
       "path": "system.reflection.typeextensions/4.1.0",
       "files": [
@@ -2982,7 +3037,7 @@
       ]
     },
     "System.Resources.ResourceManager/4.0.1": {
-      "sha512": "dBjX8KhfmsHkxp2OFevOCUd+hHLbSDptpq1+k5w9Sw21g+n/SIWx6KcYe/l1AZzXe3Htez4faa32v0NkErGHdg==",
+      "sha512": "TxwVeUNoTgUOdQ09gfTjvW411MF+w9MBYL7AtNVc+HtBCFlutPLhUCdZjNkjbhj3bNQWMdHboF0KIWEOjJssbA==",
       "type": "package",
       "path": "system.resources.resourcemanager/4.0.1",
       "files": [
@@ -3037,7 +3092,7 @@
       ]
     },
     "System.Runtime/4.1.0": {
-      "sha512": "7hLHFFQnpwEp60YoKyQ0eQFCjLUpaUSwHvt+q5sD9eJcjnc6uy8HgAp4yt25bNGUS6fGJI7Q3tLVjoZeaDf+lw==",
+      "sha512": "v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
       "type": "package",
       "path": "system.runtime/4.1.0",
       "files": [
@@ -3151,7 +3206,7 @@
       ]
     },
     "System.Runtime.Extensions/4.1.0": {
-      "sha512": "6k1QiuLZhLzALAyFn90u9zq+P8nghSsl1EOF0IyP7CWfdndPI64TNDh7slTd0+aPMN0L7R7EdKBFB7FikGvKrQ==",
+      "sha512": "CUOHjTT/vgP0qGW22U4/hDlOqXmcPq5YicBaXdUR2UiUoLwBT+olO6we4DVbq57jeX5uXH2uerVZhf0qGj+sVQ==",
       "type": "package",
       "path": "system.runtime.extensions/4.1.0",
       "files": [
@@ -3313,7 +3368,7 @@
       ]
     },
     "System.Text.Encoding/4.0.11": {
-      "sha512": "pwcJoR8E4XHsgi+6colIhdmco8bho08XYEP5VteM5K10KNwNeExZJ5J8kcxE+to7rQ1YLW2vVDhJgPD5vp7PgQ==",
+      "sha512": "U3gGeMlDZXxCEiY4DwVLSacg+DFWCvoiX+JThA/rvw37Sqrku7sEFeVBBBMBnfB6FeZHsyDx85HlKL19x0HtZA==",
       "type": "package",
       "path": "system.text.encoding/4.0.11",
       "files": [
@@ -3426,7 +3481,7 @@
       ]
     },
     "System.Threading/4.0.11": {
-      "sha512": "Nd9SesQ8kWaLVi1IOOPx5in9KnS0mqY1JE2vb6wmAGiptJE9Nx4CNuIWkfaTIdiNi1cSb7XYeJVhZ9y4lkBBLA==",
+      "sha512": "N+3xqIcg3VDKyjwwCGaZ9HawG9aC6cSDI+s7ROma310GQo8vilFZa86hqKppwTHleR/G0sfOzhvgnUxWCR/DrQ==",
       "type": "package",
       "path": "system.threading/4.0.11",
       "files": [
@@ -3495,7 +3550,7 @@
       ]
     },
     "System.Threading.Tasks/4.0.11": {
-      "sha512": "xxFjH3ka/G61IGlePg9/MJWNvTx5AG0XJbG4BhDHFz48b/Z9G+qIajFtMduVDxujeNNkuPmEhr008upnoTfpRg==",
+      "sha512": "k1S4Gc6IGwtHGT8188RSeGaX86Qw/wnrgNLshJvsdNUOPP9etMmo8S07c+UlOAx4K/xLuN9ivA1bD0LVurtIxQ==",
       "type": "package",
       "path": "system.threading.tasks/4.0.11",
       "files": [
@@ -3568,44 +3623,47 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Microsoft.EntityFrameworkCore >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.Design >= 2.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.1",
+      "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Study.Training.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Igor\\.nuget\\packages\\": {},
+    "C:\\Users\\Igor Tavares Barata\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\training\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj",
+      "projectUniqueName": "C:\\projects\\training.netcore\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj",
       "projectName": "Study.Training.Infrastructure",
-      "projectPath": "C:\\projects\\training\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Igor\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\training\\Study.Training.Infrastructure\\obj\\",
+      "projectPath": "C:\\projects\\training.netcore\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Igor Tavares Barata\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\training.netcore\\Study.Training.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Igor\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Igor Tavares Barata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\projects\\training\\Study.Training.Model\\Study.Training.Model.csproj": {
-              "projectPath": "C:\\projects\\training\\Study.Training.Model\\Study.Training.Model.csproj"
+            "C:\\projects\\training.netcore\\Study.Training.Model\\Study.Training.Model.csproj": {
+              "projectPath": "C:\\projects\\training.netcore\\Study.Training.Model\\Study.Training.Model.csproj"
             }
           }
         }
@@ -3619,9 +3677,21 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+            "target": "Package",
+            "version": "[1.1.6, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",

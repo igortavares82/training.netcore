@@ -12,6 +12,8 @@ namespace Study.Training.Model.Entities.Concrete
         public bool IsCorrect { get; private set; }
         public Question Question { get; private set; }
 
+        public Answer() { }
+
         public Answer(Guid id, string text, bool isCorrect, Question question)
         {
             this.Id = id;

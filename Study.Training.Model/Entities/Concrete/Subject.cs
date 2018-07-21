@@ -12,6 +12,8 @@ namespace Study.Training.Model.Entities.Concrete
         public string Description { get; private set; }
         public IEnumerable<Question> Questions { get; private set; }
 
+        public Subject() { }
+
         public Subject(Guid id, string title, string description, IEnumerable<Question> questions)
         {
             this.Id = id;

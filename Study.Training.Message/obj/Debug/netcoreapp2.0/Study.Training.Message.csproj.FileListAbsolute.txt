@@ -1,0 +1,9 @@
+C:\projects\training.netcore\Study.Training.Message\bin\Debug\netcoreapp2.0\Study.Training.Message.deps.json
+C:\projects\training.netcore\Study.Training.Message\bin\Debug\netcoreapp2.0\Study.Training.Message.dll
+C:\projects\training.netcore\Study.Training.Message\bin\Debug\netcoreapp2.0\Study.Training.Message.pdb
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.csprojAssemblyReference.cache
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.csproj.CoreCompileInputs.cache
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.AssemblyInfoInputs.cache
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.AssemblyInfo.cs
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.dll
+C:\projects\training.netcore\Study.Training.Message\obj\Debug\netcoreapp2.0\Study.Training.Message.pdb

@@ -16,3 +16,17 @@ C:\projects\training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study
 C:\projects\training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.AssemblyInfo.cs
 C:\projects\training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
 C:\projects\training\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.csprojAssemblyReference.cache
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.AssemblyInfo.cs
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.deps.json
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.runtimeconfig.json
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.runtimeconfig.dev.json
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Model.dll
+C:\projects\training.netcore\Study.Training.Infrastructure\bin\Debug\netcoreapp2.0\Study.Training.Model.pdb
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.csproj.CopyComplete
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
+C:\projects\training.netcore\Study.Training.Infrastructure\obj\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb

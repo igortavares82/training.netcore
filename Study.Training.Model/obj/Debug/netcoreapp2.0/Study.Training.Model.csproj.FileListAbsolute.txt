@@ -2,3 +2,11 @@ C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcore
 C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.csproj.CoreCompileInputs.cache
 C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfoInputs.cache
 C:\Users\Igor\source\repos\Study.Training\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfo.cs
+C:\projects\training.netcore\Study.Training.Model\bin\Debug\netcoreapp2.0\Study.Training.Model.deps.json
+C:\projects\training.netcore\Study.Training.Model\bin\Debug\netcoreapp2.0\Study.Training.Model.dll
+C:\projects\training.netcore\Study.Training.Model\bin\Debug\netcoreapp2.0\Study.Training.Model.pdb
+C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.csproj.CoreCompileInputs.cache
+C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfoInputs.cache
+C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfo.cs
+C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.dll
+C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.pdb

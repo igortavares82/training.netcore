@@ -1,0 +1,11 @@
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Api.deps.json
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Api.runtimeconfig.json
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Api.runtimeconfig.dev.json
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Api.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Api.pdb
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.csprojAssemblyReference.cache
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.csproj.CoreCompileInputs.cache
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.AssemblyInfoInputs.cache
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.AssemblyInfo.cs
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.dll
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.pdb

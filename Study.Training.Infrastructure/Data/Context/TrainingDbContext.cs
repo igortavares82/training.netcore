@@ -10,14 +10,11 @@ namespace Study.Training.Infrastructure.Data.Context
 {
     public class TrainingDbContext : DbContext
     {
-        //https://www.learnentityframeworkcore.com/walkthroughs/console-application
-        private IConfigurationRoot config;
 
         public TrainingDbContext() { }
 
-        public TrainingDbContext(IConfigurationRoot config, DbContextOptions<TrainingDbContext> options) : base(options)
+        public TrainingDbContext(DbContextOptions<TrainingDbContext> options) : base(options)
         {
-            this.config = config;
         }
 
         public DbSet<Answer> Answers { get; set; }
@@ -32,12 +29,5 @@ namespace Study.Training.Infrastructure.Data.Context
             QuestionMapping.Configure(builder);
             SubjectMapping.Configure(builder);
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer(@"Data Source=LUCIVAR-PC\\SQLEXPRESS;Initial Catalog=Training;Integrated Security=True");
-        }
-             
     }
 }

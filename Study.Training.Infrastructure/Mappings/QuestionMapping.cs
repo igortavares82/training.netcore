@@ -13,7 +13,8 @@ namespace Study.Training.Infrastructure.Mappings
             builder.Entity<Question>(x => 
             {
                 x.ToTable("Question");
-                x.HasKey(y => y.Id).HasName("Id");
+                x.HasKey(y => y.Id).HasName("QuestionId");
+                x.Property(y => y.Id).HasColumnName("QuestionId").ValueGeneratedOnAdd();
                 x.Property(y => y.Description).HasColumnName("Description").HasMaxLength(200).IsRequired();
                 x.HasOne(y => y.Subject).WithMany(y => y.Questions);
             });

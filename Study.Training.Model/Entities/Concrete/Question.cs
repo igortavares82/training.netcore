@@ -9,8 +9,10 @@ namespace Study.Training.Model.Entities.Concrete
     {
         public Guid Id { get; private set; }
         public string Description { get; private set; }
-        public IEnumerable<Answer> Answers { get; private set; }
         public Subject Subject { get; private set; }
+        public IEnumerable<Answer> Answers { get; private set; }
+
+        public Question() { }
 
         public Question(Guid id, string description, IEnumerable<Answer> answers, Subject subject)
         {
