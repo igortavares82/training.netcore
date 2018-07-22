@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,8 @@ namespace Study.Training.Infrastructure.Data.Interface
 {
     public interface IRepository<T> where T : class
     {
+        DbContext Context { get; }
+
         /// <summary>
         /// Creates an entity of type 'T'
         /// </summary>

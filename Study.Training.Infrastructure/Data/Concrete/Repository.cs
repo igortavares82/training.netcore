@@ -10,37 +10,36 @@ namespace Study.Training.Infrastructure.Data.Concrete
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected DbContext context = null;
+        public DbContext Context { get; private set; }
 
         public Repository(DbContext context)
         {
-            this.context = context;
+            this.Context = context;
         }
 
         public void Create(T entity)
         {
-            this.context.Set<T>().Add(entity);
-            this.context.SaveChanges();
+            this.Context.Set<T>().Add(entity);
         }
 
         public void Delete(T entity)
         {
-            this.context.Set<T>().Remove(entity);
+            this.Context.Set<T>().Remove(entity);
         }
 
         public IEnumerable<T> Read()
         {
-            return this.context.Set<T>().ToList();
+            return this.Context.Set<T>().ToList();
         }
 
         public IEnumerable<T> Read(Func<T, bool> filter)
         {
-            return this.context.Set<T>().Where(filter);
+            return this.Context.Set<T>().Where(filter);
         }
 
         public void Update(T entity)
         {
-            this.context.Set<T>().Update(entity);
+            this.Context.Set<T>().Update(entity);
         }
     }
 }

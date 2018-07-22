@@ -9,18 +9,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Study.Training.Infrastructure.Data.Concrete
 {
-    public class SubjectRepository<T> : Repository<T>, ISubjectRepository<T> where T : Subject
+    public class SubjectRepository : Repository<Subject>, ISubjectRepository
     {
         public SubjectRepository(TrainingDbContext context) : base(context) {}
 
-        public IEnumerable<T> Read(SubjectFilter filter)
+        public IEnumerable<Subject> Read(SubjectFilter filter)
         {
-            IEnumerable<T> subjects = this.context.Set<T>()
-                                                  .Include("Question")
-                                                  .Include("Answer")
-                                                  .Where(x => x.Id == filter.Id || x.Description.Contains(filter.Description))
-                                                  .Skip(filter.Skip)
-                                                  .Take(filter.Take);
+            IEnumerable<Subject> subjects = this.Context.Set<Subject>()
+                                                        .Include("Question")
+                                                        .Where(x => x.Id == filter.Id || 
+                                                                    x.Description.Contains(filter.Description))
+                                                        .Skip(filter.Skip)
+                                                        .Take(filter.Take);
 
             return subjects;
         }
