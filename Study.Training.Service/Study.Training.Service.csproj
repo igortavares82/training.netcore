@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EntityServices\" />
     <Folder Include="TaskServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Study.Training.Infrastructure\Study.Training.Infrastructure.csproj" />
+    <ProjectReference Include="..\Study.Training.Model\Study.Training.Model.csproj" />
   </ItemGroup>
 
 </Project>

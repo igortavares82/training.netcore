@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Study.Training.Message\Study.Training.Message.csproj" />
+    <ProjectReference Include="..\Study.Training.Service\Study.Training.Service.csproj" />
+  </ItemGroup>
+
 </Project>

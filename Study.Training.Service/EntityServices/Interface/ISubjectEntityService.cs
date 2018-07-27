@@ -1,5 +1,6 @@
 ﻿using Study.Training.Model.Entities.Concrete;
 using Study.Training.Model.Filters;
+using Study.Training.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,7 @@ namespace Study.Training.Service.EntityServices.Interface
     {
         void Create(Subject subject);
         void Update(Subject subject);
-        IEnumerable<Subject> Read(SubjectFilter filter);
+        PageModelResult<Subject> Read(SubjectFilter filter);
         void Delete(Subject subject);
     }
 }

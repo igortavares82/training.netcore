@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Dtos\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
