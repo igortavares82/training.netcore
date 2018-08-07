@@ -7,6 +7,7 @@ namespace Study.Training.Message.Operations
     public enum OperationStatusType
     {
         Success = 1,
-        Error = 2
+        SystemError = 2,
+        BusinessError = 3
     }
 }

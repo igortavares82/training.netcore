@@ -9,6 +9,11 @@ namespace Study.Training.Message.Operations
     {
         public PageOperationResponse(Guid protocol) : base (protocol) { }
 
+        public PageOperationResponse(Guid protocol, OperationStatusType status) : this(protocol)
+        {
+            base.Status = status;
+        }
+
         public int PageIndex { get; set; }
         public int PageCount { get; set; }
         public int RowCount { get; set; }

@@ -8,30 +8,39 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Study.Training.Infrastructure.Data.Context;
 
 namespace Study.Training.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly IHostingEnvironment env;
+        private readonly IConfiguration configuration;
+        private readonly ILoggerFactory loggerFactory;
+
+        public Startup(IConfiguration configuration, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            Configuration = configuration;
+            this.env = env;
+            this.configuration = configuration;
+            this.loggerFactory = loggerFactory;
         }
 
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
+        // continuar daqui: https://docs.microsoft.com/pt-br/aspnet/core/fundamentals/startup?view=aspnetcore-2.1
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContext<TrainingDbContext>(x => x.)
             services.AddMvc();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+
+            if (env.IsProduction())
+            {
             }
 
             app.UseMvc();

@@ -848,11 +848,11 @@
           "ref/netstandard1.0/_._": {}
         }
       },
-      "System.Runtime/4.1.0": {
+      "System.Runtime/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
-          "Microsoft.NETCore.Targets": "1.0.1"
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.dll": {}
@@ -867,12 +867,12 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "System.Runtime.Extensions/4.1.0": {
+      "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.0.1",
-          "Microsoft.NETCore.Targets": "1.0.1",
-          "System.Runtime": "4.1.0"
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Extensions.dll": {}
@@ -973,6 +973,20 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "Study.Training.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Study.Training.Message": "1.0.0",
+          "Study.Training.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Study.Training.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Study.Training.Application.dll": {}
+        }
+      },
       "Study.Training.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -989,6 +1003,19 @@
         },
         "runtime": {
           "bin/placeholder/Study.Training.Infrastructure.dll": {}
+        }
+      },
+      "Study.Training.Message/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "System.Runtime.Extensions": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Study.Training.Message.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Study.Training.Message.dll": {}
         }
       },
       "Study.Training.Model/1.0.0": {
@@ -3112,10 +3139,10 @@
         "system.resources.resourcemanager.nuspec"
       ]
     },
-    "System.Runtime/4.1.0": {
-      "sha512": "v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+    "System.Runtime/4.3.0": {
+      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
       "type": "package",
-      "path": "system.runtime/4.1.0",
+      "path": "system.runtime/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -3198,7 +3225,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.runtime.4.1.0.nupkg.sha512",
+        "system.runtime.4.3.0.nupkg.sha512",
         "system.runtime.nuspec"
       ]
     },
@@ -3226,10 +3253,10 @@
         "version.txt"
       ]
     },
-    "System.Runtime.Extensions/4.1.0": {
-      "sha512": "CUOHjTT/vgP0qGW22U4/hDlOqXmcPq5YicBaXdUR2UiUoLwBT+olO6we4DVbq57jeX5uXH2uerVZhf0qGj+sVQ==",
+    "System.Runtime.Extensions/4.3.0": {
+      "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
-      "path": "system.runtime.extensions/4.1.0",
+      "path": "system.runtime.extensions/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -3301,7 +3328,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.runtime.extensions.4.1.0.nupkg.sha512",
+        "system.runtime.extensions.4.3.0.nupkg.sha512",
         "system.runtime.extensions.nuspec"
       ]
     },
@@ -3636,10 +3663,20 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "Study.Training.Application/1.0.0": {
+      "type": "project",
+      "path": "../Study.Training.Application/Study.Training.Application.csproj",
+      "msbuildProject": "../Study.Training.Application/Study.Training.Application.csproj"
+    },
     "Study.Training.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Study.Training.Infrastructure/Study.Training.Infrastructure.csproj",
       "msbuildProject": "../Study.Training.Infrastructure/Study.Training.Infrastructure.csproj"
+    },
+    "Study.Training.Message/1.0.0": {
+      "type": "project",
+      "path": "../Study.Training.Message/Study.Training.Message.csproj",
+      "msbuildProject": "../Study.Training.Message/Study.Training.Message.csproj"
     },
     "Study.Training.Model/1.0.0": {
       "type": "project",
@@ -3656,6 +3693,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.Extensions.DependencyInjection >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
+      "Study.Training.Application >= 1.0.0",
       "Study.Training.Infrastructure >= 1.0.0",
       "Study.Training.Model >= 1.0.0",
       "Study.Training.Service >= 1.0.0"
@@ -3691,6 +3729,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\projects\\training.netcore\\Study.Training.Application\\Study.Training.Application.csproj": {
+              "projectPath": "C:\\projects\\training.netcore\\Study.Training.Application\\Study.Training.Application.csproj"
+            },
             "C:\\projects\\training.netcore\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj": {
               "projectPath": "C:\\projects\\training.netcore\\Study.Training.Infrastructure\\Study.Training.Infrastructure.csproj"
             },

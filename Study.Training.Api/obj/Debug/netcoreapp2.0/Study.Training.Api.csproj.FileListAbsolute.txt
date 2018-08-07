@@ -9,3 +9,14 @@ C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Tr
 C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.AssemblyInfo.cs
 C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.dll
 C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.pdb
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Application.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Message.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Model.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Service.dll
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Application.pdb
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Infrastructure.pdb
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Message.pdb
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Model.pdb
+C:\projects\training.netcore\Study.Training.Api\bin\Debug\netcoreapp2.0\Study.Training.Service.pdb
+C:\projects\training.netcore\Study.Training.Api\obj\Debug\netcoreapp2.0\Study.Training.Api.csproj.CopyComplete

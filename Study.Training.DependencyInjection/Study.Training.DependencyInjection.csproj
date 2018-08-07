@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Study.Training.Application\Study.Training.Application.csproj" />
     <ProjectReference Include="..\Study.Training.Infrastructure\Study.Training.Infrastructure.csproj" />
     <ProjectReference Include="..\Study.Training.Model\Study.Training.Model.csproj" />
     <ProjectReference Include="..\Study.Training.Service\Study.Training.Service.csproj" />

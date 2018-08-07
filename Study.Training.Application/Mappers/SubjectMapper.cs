@@ -30,7 +30,7 @@ namespace Study.Training.Application.Mappers
         {
             PageOperationResponse<SubjectMessage> response = new PageOperationResponse<SubjectMessage>(model.Protocol);
 
-            response.Messages = model.Messages;
+            response.Messages = model.Messages.ToList();
             response.PageCount = model.PageCount;
             response.PageIndex = model.PageIndex;
             response.RowCount = model.RowCount;

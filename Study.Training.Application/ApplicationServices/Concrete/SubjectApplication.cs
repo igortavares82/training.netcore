@@ -1,4 +1,5 @@
 ﻿using Study.Training.Application.ApplicationServices.Interface;
+using Study.Training.Application.Mappers;
 using Study.Training.Message.Messages;
 using Study.Training.Message.Operations;
 using Study.Training.Model.Filters;
@@ -9,7 +10,7 @@ using System.Text;
 
 namespace Study.Training.Application.ApplicationServices.Concrete
 {
-    public class SubjectApplication : ISubjectApplication
+    public class SubjectApplication : Application, ISubjectApplication
     {
         private ISubjectEntityService entityService = null;
 
@@ -35,10 +36,11 @@ namespace Study.Training.Application.ApplicationServices.Concrete
             try
             {
                 var model = this.entityService.Read(filter);
+                response = SubjectMapper.MapTo(model);
             }
             catch (Exception ex)
             {
-
+                response = base.CreatePageErrorResponse<SubjectMessage>(ex, filter.Protocol, OperationStatusType.SystemError);
             }
 
             return response;
