@@ -1,0 +1,5 @@
+﻿{
+  "ConnectionStrings": {
+    "Training": "Data Source=IGORTB\\SQLEXPRESS;Initial Catalog=Training;Integrated Security=True",
+  }
+}

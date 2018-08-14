@@ -27,7 +27,8 @@
           "Microsoft.AspNetCore.All": "2.0.7",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.3",
-          "Study.Training.Application": "1.0.0"
+          "Study.Training.Application": "1.0.0",
+          "Study.Training.DependencyInjection": "1.0.0"
         },
         "runtime": {
           "Study.Training.Api.dll": {}
@@ -4751,6 +4752,21 @@
           "Study.Training.Application.dll": {}
         }
       },
+      "Study.Training.DependencyInjection/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Study.Training.Application": "1.0.0",
+          "Study.Training.Infrastructure": "1.0.0",
+          "Study.Training.Model": "1.0.0",
+          "Study.Training.Service": "1.0.0"
+        },
+        "runtime": {
+          "Study.Training.DependencyInjection.dll": {}
+        },
+        "compile": {
+          "Study.Training.DependencyInjection.dll": {}
+        }
+      },
       "Study.Training.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.1",
@@ -7144,6 +7160,11 @@
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
     "Study.Training.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Study.Training.DependencyInjection/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5099,6 +5099,23 @@
           "bin/placeholder/Study.Training.Application.dll": {}
         }
       },
+      "Study.Training.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Study.Training.Application": "1.0.0",
+          "Study.Training.Infrastructure": "1.0.0",
+          "Study.Training.Model": "1.0.0",
+          "Study.Training.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Study.Training.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Study.Training.DependencyInjection.dll": {}
+        }
+      },
       "Study.Training.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -13366,6 +13383,11 @@
       "path": "../Study.Training.Application/Study.Training.Application.csproj",
       "msbuildProject": "../Study.Training.Application/Study.Training.Application.csproj"
     },
+    "Study.Training.DependencyInjection/1.0.0": {
+      "type": "project",
+      "path": "../Study.Training.DependencyInjection/Study.Training.DependencyInjection.csproj",
+      "msbuildProject": "../Study.Training.DependencyInjection/Study.Training.DependencyInjection.csproj"
+    },
     "Study.Training.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Study.Training.Infrastructure/Study.Training.Infrastructure.csproj",
@@ -13392,7 +13414,8 @@
       "Microsoft.AspNetCore.All >= 2.0.7",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
-      "Study.Training.Application >= 1.0.0"
+      "Study.Training.Application >= 1.0.0",
+      "Study.Training.DependencyInjection >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13427,6 +13450,9 @@
           "projectReferences": {
             "C:\\projects\\training.netcore\\Study.Training.Application\\Study.Training.Application.csproj": {
               "projectPath": "C:\\projects\\training.netcore\\Study.Training.Application\\Study.Training.Application.csproj"
+            },
+            "C:\\projects\\training.netcore\\Study.Training.DependencyInjection\\Study.Training.DependencyInjection.csproj": {
+              "projectPath": "C:\\projects\\training.netcore\\Study.Training.DependencyInjection\\Study.Training.DependencyInjection.csproj"
             }
           }
         }

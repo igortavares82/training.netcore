@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Study.Training.Application\Study.Training.Application.csproj" />
+    <ProjectReference Include="..\Study.Training.DependencyInjection\Study.Training.DependencyInjection.csproj" />
   </ItemGroup>
 
 </Project>

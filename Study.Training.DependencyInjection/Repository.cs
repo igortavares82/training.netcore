@@ -1,5 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Study.Training.Infrastructure.Data.Concrete;
+using Study.Training.Infrastructure.Data.Context;
 using Study.Training.Infrastructure.Data.Interface;
 using System;
 

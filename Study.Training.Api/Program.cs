@@ -17,9 +17,19 @@ namespace Study.Training.Api
             BuildWebHost(args).Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
+        public static IWebHost BuildWebHost(string[] args) => WebHost.CreateDefaultBuilder(args)
+                                                                     .ConfigureAppConfiguration(ConfigureApp)
+                                                                     .UseStartup<Startup>()
+                                                                     .Build();
+
+        private static void ConfigureApp(WebHostBuilderContext context, IConfigurationBuilder builder)
+        {
+            string envName = context.HostingEnvironment.EnvironmentName;
+
+            builder.SetBasePath(context.HostingEnvironment.ContentRootPath)
+                   .AddJsonFile($"appsettings\\appsettings.{envName}.json", true, true)
+                   .AddJsonFile($"connectionstrings\\connectionstrings.{envName}.json", true)
+                   .AddEnvironmentVariables();
+        }
     }
 }

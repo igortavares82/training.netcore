@@ -10,4 +10,3 @@ C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.
 C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.AssemblyInfo.cs
 C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.dll
 C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.pdb
-C:\projects\training.netcore\Study.Training.Model\obj\Debug\netcoreapp2.0\Study.Training.Model.csprojAssemblyReference.cache
