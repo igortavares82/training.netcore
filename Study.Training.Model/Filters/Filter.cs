@@ -11,7 +11,7 @@ namespace Study.Training.Model.Filters
         public int PageIndex { get; set; }
         public int PageSize { get; set; }
 
-        public int Skip { get { return this.PageSize * this.PageIndex; } }
-        public int Take { get { return this.PageSize; } }
+        public int Skip { get { return this.PageSize * (this.PageIndex - 1); } }
+        public int Take { get { return this.PageSize * this.PageIndex; } }
     }
 }

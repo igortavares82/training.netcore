@@ -10,8 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Study.Training.Api.Middlewares;
 using Study.Training.Infrastructure.Data.Context;
 using DI = Study.Training.DependencyInjection;
+using Study.Training.Api.Configuration;
 
 namespace Study.Training.Api
 {
@@ -43,6 +45,7 @@ namespace Study.Training.Api
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseStaticFiles();
+            app.UseMiddlewareConfig();
             app.UseMvc(x => x.MapRoute(name: "default", template: "{controller = subject}/{action=get}"));
         }
     }

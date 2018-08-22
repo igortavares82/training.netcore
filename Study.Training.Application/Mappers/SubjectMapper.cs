@@ -44,6 +44,7 @@ namespace Study.Training.Application.Mappers
             SubjectMessage response = new SubjectMessage();
 
             response.Id = model.Id;
+            response.Title = model.Title;
             response.Description = model.Description;
 
             return response;

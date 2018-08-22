@@ -30,7 +30,7 @@ namespace Study.Training.Service.EntityServices.Concrete
 
         public PageModelResult<Subject> Read(SubjectFilter filter)
         {
-            PageModelResult<Subject> model = new PageModelResult<Subject>();
+            PageModelResult<Subject> model = new PageModelResult<Subject>(filter);
             IEnumerable<Subject> subjects = this.repository.Read(filter);
 
             model.RowCount = subjects.Count();

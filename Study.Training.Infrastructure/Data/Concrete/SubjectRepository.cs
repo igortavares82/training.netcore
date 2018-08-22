@@ -15,12 +15,9 @@ namespace Study.Training.Infrastructure.Data.Concrete
 
         public IEnumerable<Subject> Read(SubjectFilter filter)
         {
-            IEnumerable<Subject> subjects = this.Context.Set<Subject>()
-                                                        .Include("Question")
-                                                        .Where(x => x.Id == filter.Id || 
-                                                                    x.Description.Contains(filter.Description))
-                                                        .Skip(filter.Skip)
-                                                        .Take(filter.Take);
+            IEnumerable<Subject> subjects = this.Context
+                                                .Set<Subject>()
+                                                .Where(x => x.Id == filter.Id || x.Description.Contains(filter.Description));
 
             return subjects;
         }
